@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css?family=Grand+Hotel|Muli|Open+Sans|Roboto|Rochester|PT+Sans+Narrow');
+
+/*
+font-family: 'Rochester', cursive;
+font-family: 'Grand Hotel', cursive;
+font-family: 'Muli', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'PT Sans Narrow', sans-serif;
+*/
+
+html {scroll-behavior: smooth;}
+body { font: normal 13px 'Muli', sans-serif; background-attachment: fixed}
+
+.metodo { display: none}
+.whatsapp{ display: inline; position: fixed; left: 30px; bottom: 60px; z-index: 9999}
+.whatsapp-cel{ display: none; position: fixed; left: 30px; bottom: 60px; z-index: 9999}
+.rede-social{position: fixed; right: 2px; bottom: 10px; z-index: 100;}
+.sem-espaco{padding-top: 0px; padding-bottom: 0px;}
+.espaco{padding-top: 100px; padding-bottom: 100px;}
+.espaco10{padding-top: 10px; padding-bottom: 10px;}
+.espaco20{padding-top: 20px; padding-bottom: 20px;}
+.espaco30{padding-top: 30px; padding-bottom: 30px;}
+.espaco40{padding-top: 40px; padding-bottom: 40px;}
+.espaco50{padding-top: 50px; padding-bottom: 50px;}
+.espaco60{padding-top: 60px; padding-bottom: 60px;}
+.espaco70{padding-top: 70px; padding-bottom: 70px;}
+.espaco80{padding-top: 80px; padding-bottom: 80px;}
+.espaco90{padding-top: 90px; padding-bottom: 90px;}
+.espaco100{padding-top: 100px; padding-bottom: 100px;}
+.espaco10-para-baixo {padding-bottom: 10px;}
+.espaco20-para-baixo {padding-bottom: 20px;}
+.espaco30-para-baixo {padding-bottom: 30px;}
+.espaco40-para-baixo {padding-bottom: 40px;}
+.espaco50-para-baixo {padding-bottom: 50px;}
+.espaco60-para-baixo {padding-bottom: 60px;}
+.borda-radius{display: block; padding: 4px;background-color: #b4976a; border-radius: 4px; max-height: 628px;}
+.espaco-baixo{padding-top: 20px; padding-bottom: 50px;}
+.espaco-menu{padding-top: 50px;}
+.espaco-topo{padding-bottom: 15px; padding-top: 15px;}
+.espaco-formulario{padding-bottom: 15px;}
+.espaco-galeria {padding-top: 8px; padding-bottom: 8px;}
+.espaco-label {padding-right: 5px; padding-left: 5px; margin-right: 5px; margin-left: 5px;}
+.tamanho-icone {width: 30px; height: 30px; vertical-align: baseline}
+.img-border{box-shadow: 5px 3px rgba(51, 51, 51, 0.5)}
+.img-centro {margin: 0 auto;}
+.campo{ padding:3px; background-color:#ffffff; color:#000; FONT-SIZE: 15px; FONT-FAMILY:'PT Sans', sans-serif; width:100%; margin-right:10px}
+.botao{ padding:10px; background-color:#c00c1b; color:#FFFFFF; FONT-SIZE: 18px; FONT-FAMILY:'PT Sans', sans-serif; margin-top: 5px;border-radius: 8px;}
+.linha { background-color: #002582; padding: 6px;}
+.rodape p{FONT: normal 15px 'Muli', sans-serif; color: #ffffff; text-align: right; padding-bottom: 1px; }
+.meio-section{position: relative; padding: 4vw 0;}
+.container-fluido {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.overlay {position: absolute; top: 0; bottom: 0; left: 0; right: 0; height: 100%; width: 100%; opacity: 0; transition: .5s ease; background-color: #000000;}
+
+.botao:hover {background:#333333;}
+
+.grow:hover { -webkit-transform: scale(1.1); -ms-transform: scale(1.1); transform: scale(1.1);}
+
+.reduz:hover { -webkit-transform: scale(0.9); -ms-transform: scale(0.9); transform: scale(0.9);}
+
+.linha-azul {background-color: #002582; padding-bottom: 5px; padding-top: 5px; padding-left: 5px; border-radius: 30px;}
+.linha-cinza {background-color: #dddddd; padding-bottom: 5px; padding-top: 5px; padding-right: 5px; border-radius: 30px;}
+
+.whats-lojas {
+  display: inline-block;
+}
+.whats-lojas .whats-lojastext {
+  visibility: hidden;
+  width: 260px;
+  background-color: #3c675e;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  top: -20px;
+  left: 102%;
+}
+
+.whats-lojas .whats-lojastext::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent green transparent transparent;
+}
+
+.whats-lojas:hover .whats-lojastext {
+  visibility: visible;
+}
+
+.coluna-menor {width: 45%; float: left;}
+.coluna-grande {width: 55%; float: left;}
+
+.borda-h {border: solid 1px; border-color: #ffffff; border-radius: 10px; padding: 10px; width: 100%; max-width: 520px;}
+
+#linha-topo{ background-color: #c00c1b ; padding: 10px;}
+#linha-topo h1{FONT: normal 15px 'Muli', sans-serif; padding-bottom: 0; color: #ffffff; text-align: center; margin: 0}
+#linha-topo a:link  {COLOR: #ffffff; TEXT-DECORATION: none}
+#linha-topo a:visited {COLOR: #ffffff; TEXT-DECORATION: none}
+#linha-topo a:hover {COLOR: #000000; text-decoration: underline}
+
+#top {background-color: #ffffff; }
+#topo-menu { background-color: #000000;}
+
+#horarios {background-color: #002085}
+#horarios h1{FONT: normal 30px 'Muli', sans-serif; padding-bottom: 5px; color: #ffffff; text-align: center;  margin: 0px; font-weight: 600;}
+#horarios h2{FONT: normal 25px 'Muli', sans-serif; padding-bottom: 5px; color: #ffffff; text-align: center;  margin: 0px; font-weight: 400;}
+#horarios p{FONT: normal 18px 'Muli', sans-serif; padding-bottom: 5px; color: #ffffff; text-align: center;  margin: 0px;}
+
+#banners {display: inline}
+#banners-quadrados {display: none}
+
+#img-paginas{display: inline;}
+
+#logo{float: left; position: absolute; z-index: 999;}
+
+#destaques {background-color: #eeeeee;}
+#destaques h1{FONT: normal 60px 'Muli', sans-serif; padding-bottom: 5px; color: #000000; text-align: center;  margin: 0px;}
+#destaques h2{FONT: normal 30px 'Muli', sans-serif; padding-bottom: 0px; color: #000000; text-align: center;}
+#destaques h3{FONT: bold 26px 'Muli', sans-serif; color: #f2662b; text-align: center; margin: 0px;}
+#destaques hr { margin-top: 20px; margin-bottom: 5px; border: 0; border-top: 3px solid #000000;}
+#destaques p{ FONT: normal 18px 'Muli', sans-serif; color: #000000; text-align: center; padding-bottom: 1px;}
+#destaques li{FONT: normal 15px 'Muli', sans-serif; color: #000000; padding-bottom: 1px; }
+#destaques ul{FONT: normal 15px 'Muli', sans-serif; color: #000000; padding-bottom: 1px; }
+#destaques a:link  {COLOR: #f2662b; TEXT-DECORATION: none}
+#destaques a:visited {COLOR: #f2662b; TEXT-DECORATION: none}
+#destaques a:hover {COLOR: #000000; TEXT-DECORATION: underline}
+
+#destaques2 {background-image: url("../img/fundo-destaques2.jpg"); background-size: cover;  background-position: center; background-repeat: no-repeat; min-height: 300px; width: 100%; }
+#destaques2 h1{FONT: normal 60px 'Muli', sans-serif; color: #002582; text-align: center;  }
+#destaques2 h2{FONT: normal 26px 'Muli', sans-serif; padding-bottom: 0px; color: #002582; text-align: center;}
+#destaques2 hr { margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 3px solid #c00c1b; width: 30%; text-align: center;}
+#destaques2 p{ FONT: normal 20px 'Muli', sans-serif; color: #000000; text-align: center; padding-bottom: 1px;}
+
+#tarja {background-color: #eeeeee}
+#tarja h1{FONT: normal 36px 'Muli', sans-serif; padding-bottom: 5px; color: #0b5394; text-align: left; text-shadow: 1px 1px 1px #333333;}
+
+#tarja-titulos {background-color: #002085}
+#tarja-titulos h1{FONT: normal 36px 'Muli', sans-serif;  color: #ffffff; text-align: left; margin: 0px;}
+#tarja-titulos h2{FONT: normal 24px 'Muli', sans-serif; padding-bottom: 5px; padding-top: 10px; color: #cccccc; text-align: left; margin: 0px;}
+#tarja-titulos hr { margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 3px solid #ffffff; width: 20%; text-align: left;}
+#tarja-titulos p{ FONT: normal 20px 'Muli', sans-serif; color: #333333; text-align: left; padding-bottom: 1px; }
+
+#tarja-titulos2 {background-color: #002085}
+#tarja-titulos2 h1{FONT: normal 36px 'Muli', sans-serif;  color: #ffffff; text-align: left; margin: 0px;}
+#tarja-titulos2 h2{FONT: normal 24px 'Muli', sans-serif; padding-bottom: 5px; padding-top: 10px; color: #cccccc; text-align: left; margin: 0px;}
+#tarja-titulos2 hr { margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 3px solid #ffffff; width: 20%; text-align: left;}
+
+#tarja-titulos-red {background-color: #A70002}
+#tarja-titulos-red h1{FONT: normal 36px 'Muli', sans-serif;  color: #ffffff; text-align: left; margin: 0px;}
+#tarja-titulos-red h2{FONT: normal 28px 'Muli', sans-serif; padding-bottom: 5px; padding-top: 10px; color: #333333; text-align: left; margin: 0px;}
+#tarja-titulos-red hr { margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 3px solid #ffffff; width: 20%; text-align: left;}
+#tarja-titulos-red p{ FONT: normal 20px 'Muli', sans-serif; color: #333333; text-align: left; padding-bottom: 1px; }
+
+#paginas {background-color: #ffffff;}
+#paginas h1{FONT: normal 36px 'Muli', sans-serif; padding-bottom: 5px; color: #c00c1b; text-align: left; margin: 0px;}
+#paginas h2{FONT: normal 26px 'Muli', sans-serif; padding-bottom: 0px; color: #c00c1b; margin: 0px;}
+#paginas h3{FONT: normal 26px 'Muli', sans-serif; padding-bottom: 0px; color: #002085;}
+#paginas h4{FONT: normal 22px 'Muli', sans-serif;  color: #ffffff; text-align: left; margin: 0px;}
+#paginas h5{FONT: normal 22px 'Muli', sans-serif;  color: #002085; text-align: left; margin: 0px; }
+#paginas h6{ FONT: normal 15px 'Muli', sans-serif; color: #f2662b; text-align: center; padding-bottom: 1px; }
+#paginas hr { margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 3px solid #f2662b; width: 30%; text-align: left;}
+#paginas p{ FONT: normal 17px 'Muli', sans-serif; color: #000000; text-align: left; padding-bottom: 2px; }
+#paginas li{FONT: normal 20px 'Muli', sans-serif; color: #000000; padding-bottom: 1px; }
+#paginas ul{FONT: normal 15px 'Muli', sans-serif; color: #000000; padding-bottom: 1px; }
+#paginas a:link  {COLOR: #c00c1b; TEXT-DECORATION: none}
+#paginas a:visited {COLOR: #c00c1b; TEXT-DECORATION: none}
+#paginas a:hover {COLOR: #002085; text-decoration: none; transition: 0.6s}
+
+#baixo{background-color: #eeeeee; background-image: url("../img/fundo-baixo.jpg"); background-size: cover;  background-position: center; background-repeat: no-repeat; min-height: 300px; width: 100%;}
+#baixo h1{FONT: normal 30px 'Muli', sans-serif; color: #002582; margin-top: 1px; margin-bottom: 0; padding-bottom: 5px;}
+#baixo h2{FONT: normal 15px 'Muli', sans-serif; color: #002582; margin-top: 0px; margin-bottom: 0px;}
+#baixo h6{FONT: normal 15px 'Muli', sans-serif; color: #000000; text-align: center; margin-top: 0px; margin-bottom: 0px; padding: 5px; }
+#baixo p{FONT: normal 15px 'Muli', sans-serif; color: #000000; text-align: left; margin-top: 5px; margin-bottom: 5; }
+#baixo hr{ margin-top: 10px; margin-bottom: 10px; border: 0; border-top: 2px solid #002582;}
+#baixo a:link  {COLOR: #002582; FONT-SIZE: 10pt;TEXT-DECORATION: none}
+#baixo a:visited {COLOR: #002582;FONT-SIZE: 10pt; TEXT-DECORATION: none}
+#baixo a:hover {COLOR: #000000; FONT-SIZE: 10pt;TEXT-DECORATION: none}
+
+#fundo-fixo { background-image: url(../img/fundo-fixo.jpg); background-size: cover; background-attachment: fixed; background-position: center; background-repeat: no-repeat; min-height: 300px; width: 100%; }
+#fundo-fixo h1{FONT: normal 60px 'Muli', sans-serif; padding-bottom: 5px; color: #fff; text-align: center; text-shadow: 1px 1px 1px #333333;}
+#fundo-fixo h2{FONT: normal 20px 'Muli', sans-serif; color: #fff; text-align: center; margin: 0px;}
+#fundo-fixo h3{FONT: normal 30px 'Muli', sans-serif; padding-bottom: 5px; color: #fff; text-align: center; text-shadow: 1px 1px 1px #333333;}
+#fundo-fixo p{FONT: normal 20px 'Muli', sans-serif; padding-bottom: 5px; color: #ffffff; text-align: center; text-shadow: 3px 3px 1px #333333;}
+#fundo-fixo a:link  {COLOR: #cbb36d; TEXT-DECORATION: none}
+#fundo-fixo a:visited {COLOR: #cbb36d; TEXT-DECORATION: none}
+#fundo-fixo a:hover {COLOR: #ffffff; TEXT-DECORATION: underline}
+
+#facebook-janela{display: inline;}
+#topo1{ display: inline}
+#topo-peq{ display:none; }
+#tarja-grande{display: inline;}
+#tarja-pequena{display: none; }
+
+@media screen and (max-width: 1170px) {
+	#tarja-grande{display:none }
+	#tarja-pequena{display: inline; margin-left: auto; margin-right: auto; padding-bottom: 5px;}
+	.espaco{padding-top: 40px; padding-bottom: 40px;}	
+}
+@media screen and (max-width: 1024px) {
+	#fundo-fixo { background-image: url(../img/fundo-fixo.jpg); background-size: cover; background-attachment: local; background-position: center; background-repeat: no-repeat; min-height: 300px; width: 100%; }
+
+}
+
+@media screen and (max-width: 768px) {
+	#img-titulo{display: none}
+	#fundo-fixo h1{FONT: normal 40px 'Muli', sans-serif; padding-bottom: 5px; color: #fff; text-align: center; text-shadow: 1px 1px 1px #333333;}
+}
+@media screen and (max-width: 640px) {
+	
+	#topo1{ display: none}
+   	#topo-peq{ display: inline; display: block;  margin-left: auto; margin-right: auto }
+	#facebook-janela{display: none;}
+	#banners {display: none}
+	#banners-quadrados {display: inline}
+	#fundo-fixo h1{FONT: normal 40px 'Muli', sans-serif; padding-bottom: 5px; color: #fff; text-align: center; text-shadow: 1px 1px 1px #333333;}
+	.coluna-menor {width: 100%; float: left;}
+.coluna-grande {width: 100%; float: left;}
+	.whatsapp-cel{ display: inline; position: fixed; left: 30px; bottom: 60px; z-index: 9999}
+	.whatsapp{display: none; position: fixed; left: 30px; bottom: 60px; z-index: 9999 }
+	.espaco-menu{padding-top: 5px;}
+	.whats-lojas .whats-lojastext { visibility: hidden; width: 180px; background-color: #3c675e; font-size: 12px; text-transform: uppercase; color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  top: -20px;
+  left: 102%;
+}
+	.whats-gif {width: 50px;}
+}
+
+A:link  {COLOR: #ffffff; TEXT-DECORATION: none}
+A:visited {COLOR: #ffffff; TEXT-DECORATION: none}
+A:hover {COLOR: #000000; text-decoration: underline}
+
+A.baixo:link  {COLOR: #ffffff; FONT-SIZE: 10pt;TEXT-DECORATION: none}
+A.baixo:visited {COLOR: #616161;FONT-SIZE: 10pt; TEXT-DECORATION: none}
+A.baixo:hover {COLOR: #616161; FONT-SIZE: 10pt;TEXT-DECORATION: underline}
+
+#myBtn {
+    
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color:#79a2d4;
+	
+    color: white;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+#myBtn:hover {
+  background-color: #333;
+}
+
+.input-group-addon {
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1;
+  color: #555;
+  text-align: center;
+  background-color: #ff5d00;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 46px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+}
+.iframe-container > *{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
